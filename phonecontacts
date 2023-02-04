@@ -1,5 +1,5 @@
 #!/bin/bash
-file=database.txt
+file=phone_book.txt
 i=0
 if ! [ -f "$file" ]; then #file not exists
     touch phone_book.txt
